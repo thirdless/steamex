@@ -1,0 +1,91 @@
+.showcase_content_bg::-webkit-scrollbar{width:10px;}
+.showcase_content_bg::-webkit-scrollbar-track{background:transparent;}
+.showcase_content_bg::-webkit-scrollbar-thumb{background:rgba(255,255,255,.7);border-radius:5px;}
+
+.responsive_page_content{position:relative;}
+#global_header{position:absolute;z-index:403;left:0;right:0;background:rgba(10,10,10,0.7)!important;}
+#global_header .content{background:none!important;}
+.responsive_page_template_content{margin-top:-104px;}
+.profile_page{padding-top:104px!important;}
+.profile_background_image_content{background-position:center -328px!important;}
+
+.profile_badges_badge, .profile_badges_badge img{width:25px!important;height:25px!important;}
+.profile_badges .profile_count_link{display:inline-block;}
+.profile_badges .profile_count_link_preview{display:inline-block;margin:3px 0 0 10px;vertical-align:top;}
+.profile_badges_badge{margin-right:5px!important;}
+.profile_badges_badge.last{margin-right:0!important;}
+div#global_actions .user_avatar.playerAvatar,#global_actions .user_avatar.playerAvatar img{border-radius:50%;overflow:hidden;}
+.profile_header_content .playerAvatar.profile_header_size,.playerAvatar.profile_header_size img{border-radius:50%;overflow:hidden;}
+.header_notification_btn.global_header_toggle_button.notification_count_total_ctn{border-radius:15px!important;}
+.profile_header_bg .favorite_badge{position:static!important;}
+.profile_header_bg .favorite_badge_icon{position:absolute!important;left:-10px!important;top:120px!important;}
+.profile_header_bg .favorite_badge_description{display:none!important;}
+.profile_header_bg .profile_header_badge{border:0!important;background-color:transparent!important;box-shadow:0!important;margin:0!important;height:0!important;width:0!important;}
+.menuitem{font-size:18px!important;font-weight:200!important;text-transform:lowercase!important;}
+.profile_header_bg_texture{box-shadow: 0 0 10px 2px black;background-image:none!important;background-color:rgba(10,10,10,0.7)!important;}
+.profile_header_bg_texture:after{content:"";background:transparent;position:absolute;left:0;bottom:0;right:0;top:0;filter:blur(5px);}
+.profile_header_bg{background-image:none!important;padding-bottom:0!important;z-index:3!important;}
+div#global_header .content{width:1000px!important;}
+.profile_header_bg .persona_name.persona_level{font-size:0px!important;height:0!important;}
+.profile_header_bg .persona_name.persona_level .friendPlayerLevel{position:absolute!important;top:10px!important;left:180px!important;cursor:pointer!important;}
+.profile_header_bg .persona_name.persona_level .friendPlayerLevel .friendPlayerLevelNum{font-family:"Motiva Sans"!important;text-align:center!important;}
+.profile_header_bg .persona_name{font-size:30px!important;margin-left:35px!important;margin-top:-3px!important;}
+body.private_profile .profile_header_bg .persona_name{margin-left:0!important;}
+.profile_header_bg .profile_header_badgeinfo_badge_area{height:0!important;}
+.profile_content.has_profile_background{margin-top:0!important;z-index:1!important;}
+.profile_content{padding-top:10px!important;z-index:1!important;}
+.header_real_name{margin-top:5px!important;}
+.profile_background_overlay_content{opacity:1!important;background-color:rgba(10,10,10,0.7)!important;}
+.profile_header_actions{float:right!important;}
+.profile_header_actions>a>span{width:0;height:0;font-size:0;border:0;}
+.profile_header_actions>a{width:30px;height:30px;border:0;filter:invert(100%);background-repeat:no-repeat!important;background-size:100%!important;background-position:center!important;transition:opacity 0.25s ease;}
+.profile_header_actions>a:hover{opacity:0.8;}
+.profile_header_actions>a[href^="javascript:AddFriend"]{background:url(//thirdless.github.io/steamex/assets/add.png);}
+.profile_header_actions>a[href$="/edit"]{background:url(//thirdless.github.io/steamex/assets/edit.png);}
+.profile_header_actions>a[href^="javascript:Launch"]{background:url(//thirdless.github.io/steamex/assets/msg.png);}
+.profile_header_actions #profile_action_dropdown_link{margin-left:10px!important;width:30px;height:30px;border:0;filter:invert(100%);background-repeat:no-repeat!important;background-size:100%!important;background-position:center!important;background:url(//thirdless.github.io/steamex/assets/more.png);}
+.profile_header_actions #profile_action_dropdown_link>span,.profile_header_actions #profile_action_dropdown_link>span>img{width:0;height:0;font-size:0;border:0;}
+.responsive_status_info{margin-top:10px;font-family:"Motiva Sans";}
+.profile_in_game_joingame,.profile_group_membercount{display:none;}
+.profile_primary_group .whiteLink{font-size:20px;}
+.profile_group .whiteLink{margin-top:10px;display:inline-block;}
+.profile_count_link .count_link_label,.profile_group,.profile_topfriends,.commentthread_comment_container{font-family:"Motiva Sans";}
+.profile_count_link .count_link_label{font-weight:200;}
+.profile_topfriends .playerAvatar,.profile_topfriends .playerAvatar img,.profile_comment_area .playerAvatar,.profile_comment_area .playerAvatar img{border-radius:50%!important;overflow:hidden!important;}
+.profile_group .profile_group_avatar{border-radius:50%!important;overflow:hidden!important;}
+.profile_badges,.profile_group_links,.profile_item_links{margin-bottom:20px!important;}
+.recentgame_quicklinks:not(.recentgame_recentplaytime){display:none;}
+.profile_leftcol_header h2{font-size:25px!important;}
+.recentgame_recentplaytime h2{font-size:20px!important;}
+.profile_comment_area .commentthread_footer,.profile_comment_area .commentthread_comment_container{border:0!important;}
+.pagebtn, a.pagebtn{width:30px!important;height:30px!important;box-sizing:border-box!important;padding:10px!important;border-radius:50%!important;text-align:center!important;line-height:10px!important;}
+.commentthread_pagelinks{font-size:15px;font-family:"Motiva Sans";}
+.commentthread_header{background-color:transparent!important;}
+.profile_comment_area .commentthread_header .commentthread_allcommentslink,.commentthread_subscribe_ctn .commentthread_subscribe_desc{font-family:"Motiva Sans"!important;font-size:0!important;}
+.profile_comment_area .commentthread_header .commentthread_allcommentslink:before{font-size:15px;content:"View all";}
+.commentthread_subscribe_ctn .commentthread_subscribe_desc:before{font-size:15px;content:"Subscribe";}
+.commentthread_header_label{color:white;}
+.commentthread_header .commentthread_header_label{font-size:25px;text-decoration:underline;margin-right:10px;}
+.game_info_achievements_only_ctn .game_info_achievements_summary_area{}
+.recent_game{background-color:transparent!important;border-radius:5px!important;}
+.recent_game .recent_game_content{padding:20px;position:relative;overflow:hidden;border-radius:5px!important;}
+.profile_leftcol_header{background-color:transparent!important;padding:20px 10px!important;}
+.profile_customization{background-image:none!important;background-color:rgba(15,20,28,.9)!important;}
+.recent_game .recent_game_content .game_bg{position:absolute;z-index:1!important;min-width:100%;width:auto;min-height:100%;top:0;left:0;border-radius:10px;pointer-events:none;transition:all 0.25s ease-in-out;filter:blur(5px);}
+.recent_game .recent_game_content .game_info,.recent_game .recent_game_content .game_info_stats{z-index:3!important;position:relative;}
+.recent_game .recent_game_content .game_info_stats{transition:all 0.25s ease-in-out;padding:0!important;background-color:transparent!important;border-top:0!important;margin-top:30px;font-family:"Motiva Sans"!important;opacity:0.7;transform:scale(0.9);}
+.recent_game .recent_game_content .game_info_stats .game_info_achievements_summary_area .game_info_achievement_summary .ellipsis{color:white;}
+.recent_game:hover .recent_game_content .game_info_stats{transform:scale(1);opacity:1;}
+.recent_game .recent_game_content .game_info{font-family:"Motiva Sans";transition:all 0.25s ease-in-out;}
+.recent_game .recent_game_content .game_info .game_info_cap{border-radius:5px;box-shadow:0 0 5px black;}
+.recent_game .game_info .game_name{font-size:20px!important;text-shadow:0 0 5px black;}
+.recent_game .game_info .game_info_details{font-size:14px;color:white;text-shadow:0 0 5px black;}
+.recent_game .recent_game_content .game_ph{height:2px;transition:all 0.25s ease-in-out;}
+#footer{padding:20px 0!important;}
+.game_info_achievement_summary,.game_info_stats_publishedfilecounts{text-shadow:0 0 5px black;}
+body.flat_page #footer_spacer{height:102px!important;}
+#footer .footer_content #footerText{font-size:15px!important;font-family:"Motiva Sans"!important;line-height:13px!important;}
+.profile_rightcol .responsive_status_info .profile_in_game .profile_in_game_header{font-size:0px;}
+.profile_rightcol .responsive_status_info .profile_in_game.offline .profile_in_game_header:before{font-size:20px;content:"Offline"}
+.profile_rightcol .responsive_status_info .profile_in_game.online .profile_in_game_header:before{font-size:20px;content:"Online"}
+.profile_rightcol .responsive_status_info .profile_in_game.in-game .profile_in_game_header:before{font-size:20px;content:"In-game"}
