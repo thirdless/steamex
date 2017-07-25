@@ -23,7 +23,6 @@ div#global_actions .user_avatar.playerAvatar,#global_actions .user_avatar.player
 .profile_header_bg .profile_header_badge{border:0!important;background-color:transparent!important;box-shadow:0!important;margin:0!important;height:0!important;width:0!important;}
 .menuitem{font-size:18px!important;font-weight:200!important;text-transform:lowercase!important;}
 .profile_header_bg_texture{box-shadow: 0 0 10px 2px black;background-image:none!important;background-color:rgba(10,10,10,0.7)!important;}
-.profile_header_bg_texture:after{content:"";background:transparent;position:absolute;left:0;bottom:0;right:0;top:0;filter:blur(5px);}
 .profile_header_bg{background-image:none!important;padding-bottom:0!important;z-index:3!important;}
 div#global_header .content{width:1000px!important;}
 .profile_header_bg .persona_name.persona_level{font-size:0px!important;height:0!important;}
