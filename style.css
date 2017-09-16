@@ -5,7 +5,7 @@
 .responsive_page_content{position:relative;}
 #global_header{position:absolute;z-index:403;left:0;right:0;background:rgba(10,10,10,0.7)!important;}
 #global_header .content{background:none!important;}
-.responsive_page_template_content{margin-top:-104px;}
+body.profile_page .responsive_page_template_content{margin-top:-104px;}
 .profile_page{padding-top:104px!important;}
 .profile_background_image_content{background-position:center -328px!important;}
 
